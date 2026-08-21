@@ -1,6 +1,6 @@
 {
   "name": "little-mouse-pointer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "\u8f7b\u91cf Windows \u9f20\u6807\u53d6\u666f\u63d2\u4ef6\uff0c\u4e3a agent \u63d0\u4f9b\u7ecf\u8fc7\u7528\u6237\u786e\u8ba4\u7684\u7a97\u53e3\u3001UI \u5143\u7d20\u548c\u5c4f\u5e55\u533a\u57df\u4e0a\u4e0b\u6587\u3002",
   "author": {
     "name": "Agent Test DSH"
