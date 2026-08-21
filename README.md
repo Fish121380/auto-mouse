@@ -27,6 +27,24 @@ plugins/little-mouse-pointer/app/MousePointer.Windows.exe
 
 不要通过 `run.ps1` 作为 MCP stdio bridge；`run.ps1` 只用于手动启动 GUI 和 self-test。
 
+### 从 GitHub 直接安装 Harness bundle
+
+仓库根目录同时提供符合 Harness `dsh.bundle` 规范的安装包。建议固定发行版 tag：
+
+```powershell
+dsh plugin --profile demo add github:Fish121380/auto-mouse#v0.1.1
+dsh --profile demo --dump-config
+```
+
+该 bundle 会自动定位自己携带的 Windows x64 exe，并注册 `@deepseek-ai/dsh-mcp-client`。它只适用于 Windows x64；端口可在 profile 的 `cordis.patch.yml` 中覆盖：
+
+```yaml
+- replace:
+    - id: little-mouse-pointer
+      config:
+        port: 49154
+```
+
 ## 安装前检查
 
 - Windows 10/11 x64。

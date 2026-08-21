@@ -4,6 +4,8 @@
 
 Little Mouse Pointer connects to DeepSeek Harness through an MCP stdio bridge. The configuration below starts the self-contained executable from the release package and uses a loopback HTTP endpoint for communication with the desktop process. Do not forward MCP stdio through `run.ps1`; a PowerShell wrapper cannot reliably preserve the bidirectional stdin stream required by a standard MCP client.
 
+When the Harness supports a repository-root DSH bundle, prefer the GitHub installation command in the parent [installation checklist](../../../INSTALL.en.md). This page is the manual configuration for older Harness versions or profiles that do not support the bundle.
+
 ## cordis.yml
 
 Use the following plugin entry in the Harness `cordis.yml`, preset, or equivalent Cordis configuration layer. Replace `C:/path/to/little-mouse-pointer` with the actual plugin root and use forward slashes in YAML:

@@ -27,7 +27,14 @@ The Codex marketplace command targets the repository root `Auto_Mouse`, not the 
 ## DeepSeek Harness
 
 1. Confirm that the Harness workspace provides `@deepseek-ai/dsh-mcp-client`.
-2. Add the configuration from [DeepSeek Harness configuration](plugins/little-mouse-pointer/docs/deepseek-harness.en.md) to the applicable `cordis.yml`, preset, or Cordis configuration layer.
+2. Prefer installing the repository-root Harness bundle:
+
+   ```powershell
+   dsh plugin --profile demo add github:Fish121380/auto-mouse#v0.1.1
+   dsh --profile demo --dump-config
+   ```
+
+   If the installed Harness version or profile does not support this bundle, add the configuration from [DeepSeek Harness configuration](plugins/little-mouse-pointer/docs/deepseek-harness.en.md) to the applicable `cordis.yml`, preset, or Cordis configuration layer.
 3. Set `command` to `app/MousePointer.Windows.exe`; do not use `run.ps1` as the MCP stdio bridge.
 4. Keep `cwd`, the executable path, the endpoint, and `MOUSE_POINTER_HTTP_PORT` aligned to the same plugin root and port.
 5. After startup, the Harness should discover:
