@@ -6,6 +6,14 @@ This repository provides `Little Mouse Pointer`, a Windows desktop UI context pi
 
 The plugin lives in [`plugins/little-mouse-pointer`](plugins/little-mouse-pointer). See the plugin [README](plugins/little-mouse-pointer/README.en.md) for full feature, protocol, and runtime documentation.
 
+## Documentation
+
+- [Beginner installation checklist](INSTALL.en.md): verify Codex, DeepSeek Harness, and manual-run setups step by step.
+- [Complete plugin README](plugins/little-mouse-pointer/README.en.md): features, user flow, privacy limits, and known boundaries.
+- [Runtime notes](plugins/little-mouse-pointer/docs/runtime.en.md): the self-contained runtime, `run.ps1`, and MCP stdio behavior.
+- [DeepSeek Harness configuration](plugins/little-mouse-pointer/docs/deepseek-harness.en.md): manual Cordis configuration when the bundle is unavailable.
+- [Protocol reference](plugins/little-mouse-pointer/docs/protocol/dsh-ui-context-v1.en.md): tool output fields and the approval flow.
+
 ## Install from GitHub in Codex
 
 Run the following commands in PowerShell, replacing `OWNER/REPOSITORY` with the GitHub repository:
