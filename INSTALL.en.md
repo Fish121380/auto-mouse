@@ -2,6 +2,8 @@
 
 [中文安装检查表](INSTALL.md)
 
+For a first installation, start with the [getting started tutorial](plugins/little-mouse-pointer/docs/getting-started.en.md), then use this page to verify the environment and discovered tools. Paths on this page are relative to the GitHub repository root.
+
 ## Codex
 
 1. Use Codex `0.147.0` or newer.
@@ -59,3 +61,10 @@ The Codex marketplace command targets the repository root `Auto_Mouse`, not the 
 - If the control window is not visible, use the tray menu or call `ui_context_pick` again after bringing the picker to the foreground.
 - If no tools are discovered, verify the executable path, `cwd`, endpoint, environment variable, and that the full `app` directory is present.
 - In MCP stdio mode, stdout is reserved for JSON-RPC. Diagnostics belong on stderr.
+
+## Continue reading
+
+- [Complete plugin README](plugins/little-mouse-pointer/README.en.md)
+- [Getting started tutorial](plugins/little-mouse-pointer/docs/getting-started.en.md)
+- [Runtime notes](plugins/little-mouse-pointer/docs/runtime.en.md)
+- [DeepSeek Harness manual configuration](plugins/little-mouse-pointer/docs/deepseek-harness.en.md)

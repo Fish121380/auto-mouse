@@ -6,6 +6,7 @@ Little Mouse Pointer 是一个面向 OpenAI Codex、DeepSeek Harness 和其他 M
 
 ## 文档导航
 
+- [新手教程](docs/getting-started.md)：第一次安装、首次选取和常见问题的完整流程。
 - [新手安装检查表](../../INSTALL.md)：从安装到首次调用的逐项检查。
 - [运行时说明](docs/runtime.md)：运行包、手动启动和 MCP stdio 的关系。
 - [DeepSeek Harness 配置](docs/deepseek-harness.md)：bundle 不可用时的手工配置。

@@ -6,6 +6,7 @@ Little Mouse Pointer is a Windows desktop UI context picker for OpenAI Codex, De
 
 ## Documentation
 
+- [Getting started tutorial](docs/getting-started.en.md): installation, first selection, and common problems.
 - [Beginner installation checklist](../../INSTALL.en.md): verify installation through the first tool call.
 - [Runtime notes](docs/runtime.en.md): the packaged runtime, manual startup, and MCP stdio.
 - [DeepSeek Harness configuration](docs/deepseek-harness.en.md): manual configuration when the bundle is unavailable.

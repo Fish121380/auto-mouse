@@ -8,6 +8,7 @@ The plugin lives in [`plugins/little-mouse-pointer`](plugins/little-mouse-pointe
 
 ## Documentation
 
+- [Getting started tutorial](plugins/little-mouse-pointer/docs/getting-started.en.md): installation, first selection, and common problems.
 - [Beginner installation checklist](INSTALL.en.md): verify Codex, DeepSeek Harness, and manual-run setups step by step.
 - [Complete plugin README](plugins/little-mouse-pointer/README.en.md): features, user flow, privacy limits, and known boundaries.
 - [Runtime notes](plugins/little-mouse-pointer/docs/runtime.en.md): the self-contained runtime, `run.ps1`, and MCP stdio behavior.

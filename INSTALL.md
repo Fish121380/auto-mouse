@@ -2,6 +2,8 @@
 
 [English installation checklist](INSTALL.en.md)
 
+第一次安装建议先阅读[新手教程](plugins/little-mouse-pointer/docs/getting-started.md)，再用本页逐项核对环境和工具发现结果。本页中的路径均以 GitHub 仓库根目录为基准。
+
 ## Codex
 
 1. 使用 Codex `0.147.0` 或更新版本。
@@ -45,3 +47,10 @@
 - 手动 GUI 启动使用 `run.ps1` 或 `run.cmd`；MCP stdio 使用 self-contained exe。
 
 GitHub 仓库检出时，插件根目录是 `Auto_Mouse/plugins/little-mouse-pointer`；独立发行版 zip 解压后，插件根目录是直接包含 `.codex-plugin` 的 `little-mouse-pointer` 目录。Codex marketplace 命令应指向仓库根目录 `Auto_Mouse`。Harness bundle 安装命令应指向仓库 URL，而不是嵌套插件目录。
+
+## 继续阅读
+
+- [插件完整 README](plugins/little-mouse-pointer/README.md)
+- [新手教程](plugins/little-mouse-pointer/docs/getting-started.md)
+- [运行时说明](plugins/little-mouse-pointer/docs/runtime.md)
+- [DeepSeek Harness 手工配置](plugins/little-mouse-pointer/docs/deepseek-harness.md)

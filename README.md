@@ -8,6 +8,7 @@
 
 ## 文档导航
 
+- [新手教程](plugins/little-mouse-pointer/docs/getting-started.md)：第一次安装、首次选取和常见问题的完整流程。
 - [新手安装检查表](INSTALL.md)：按 Codex、DeepSeek Harness 和手动运行场景逐项确认。
 - [插件完整 README](plugins/little-mouse-pointer/README.md)：功能、使用流程、隐私限制和故障边界。
 - [运行时说明](plugins/little-mouse-pointer/docs/runtime.md)：self-contained 运行包、`run.ps1` 和 MCP stdio 行为。
