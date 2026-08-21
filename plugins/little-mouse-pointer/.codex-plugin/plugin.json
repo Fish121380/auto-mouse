@@ -1,0 +1,33 @@
+{
+  "name": "little-mouse-pointer",
+  "version": "0.1.0",
+  "description": "\u8f7b\u91cf Windows \u9f20\u6807\u53d6\u666f\u63d2\u4ef6\uff0c\u4e3a agent \u63d0\u4f9b\u7ecf\u8fc7\u7528\u6237\u786e\u8ba4\u7684\u7a97\u53e3\u3001UI \u5143\u7d20\u548c\u5c4f\u5e55\u533a\u57df\u4e0a\u4e0b\u6587\u3002",
+  "author": {
+    "name": "Agent Test DSH"
+  },
+  "license": "MIT",
+  "keywords": [
+    "windows",
+    "ui-context",
+    "mouse",
+    "mcp",
+    "ocr"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Little Mouse Pointer",
+    "shortDescription": "\u9009\u62e9\u684c\u9762\u7a97\u53e3\u548c\u754c\u9762\u5143\u7d20\u5e76\u63d0\u4f9b\u7ed9 agent\u3002",
+    "longDescription": "\u8f7b\u91cf Windows UI context picker\uff0c\u4fdd\u7559\u60ac\u505c\u9ad8\u4eae\u3001UI Automation\u3001\u622a\u56fe\u3001\u672c\u673a OCR\u3001\u9690\u79c1\u8fc7\u6ee4\u548c MCP \u8f93\u51fa\u3002\u9ed8\u8ba4\u4ec5\u5728\u672c\u673a\u5904\u7406\uff0c\u5e76\u8981\u6c42\u7528\u6237\u786e\u8ba4\u540e\u8f93\u51fa\u3002",
+    "developerName": "Agent Test DSH",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "\u8bfb\u53d6\u5f53\u524d\u9f20\u6807\u9009\u62e9\u7684\u754c\u9762\u4e0a\u4e0b\u6587",
+      "\u5206\u6790\u5f53\u524d\u9009\u4e2d\u7684\u7a97\u53e3\u6216 UI \u5143\u7d20"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "auto-mouse",
+  "interface": {
+    "displayName": "Auto Mouse Plugins"
+  },
+  "plugins": [
+    {
+      "name": "little-mouse-pointer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/little-mouse-pointer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
