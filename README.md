@@ -1,8 +1,8 @@
-# Auto Mouse Plugins
+# Little Mouse Pointer
 
 [English README](README.en.md)
 
-本仓库提供 `Little Mouse Pointer`，用于在 Windows 桌面选择窗口、UI 元素或屏幕区域，并将用户确认后的上下文提供给 Codex、DeepSeek Harness 或其他 MCP 客户端。
+本仓库提供 `Little Mouse Pointer`：一个面向 AI agent 的 Windows 桌面 UI context picker。用户可以用鼠标选择窗口、UI 元素或屏幕区域，通过 UI Automation、截图和本机 OCR 获取上下文，并在确认后通过 MCP 提供给 OpenAI Codex、DeepSeek Harness 或其他兼容客户端。
 
 插件目录为 [`plugins/little-mouse-pointer`](plugins/little-mouse-pointer)。完整功能、协议和运行时说明见插件目录中的 [README](plugins/little-mouse-pointer/README.md)。
 

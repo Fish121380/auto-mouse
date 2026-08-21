@@ -2,7 +2,7 @@
 
 [English README](README.en.md)
 
-Little Mouse Pointer 是一个面向 Windows 的桌面取景插件。用户可以选择桌面窗口、UI 元素或屏幕区域，检查隐私过滤后的 Markdown、JSON 和截图，并在明确确认后把上下文提供给 agent。它适用于 Codex，也可以通过 MCP stdio 接入 DeepSeek Harness 或其他兼容 MCP 的客户端。
+Little Mouse Pointer 是一个面向 OpenAI Codex、DeepSeek Harness 和其他 MCP 客户端的 Windows 桌面 UI context picker。用户可以选择窗口、UI 元素或屏幕区域，通过悬停高亮、UI Automation、截图和本机 OCR 获取上下文，检查隐私过滤后的 Markdown、JSON 和截图，并在明确确认后提供给 AI agent。
 
 ## 功能
 

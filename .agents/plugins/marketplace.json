@@ -1,7 +1,7 @@
 {
   "name": "auto-mouse",
   "interface": {
-    "displayName": "Auto Mouse Plugins"
+    "displayName": "Little Mouse Pointer"
   },
   "plugins": [
     {

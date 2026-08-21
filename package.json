@@ -1,7 +1,7 @@
 {
   "name": "dsh-little-mouse-pointer",
   "version": "0.1.1",
-  "description": "DeepSeek Harness bundle for the Little Mouse Pointer Windows MCP server",
+  "description": "DeepSeek Harness bundle for a Windows desktop UI context picker and MCP server for Codex, DeepSeek Harness, and AI agents",
   "type": "module",
   "main": "index.js",
   "files": [

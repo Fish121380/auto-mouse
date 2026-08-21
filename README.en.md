@@ -1,8 +1,8 @@
-# Auto Mouse Plugins
+# Little Mouse Pointer
 
 [中文 README](README.md)
 
-This repository provides `Little Mouse Pointer`, a Windows desktop picker for selecting windows, UI elements, or screen regions and delivering user-approved context to Codex, DeepSeek Harness, or another MCP client.
+This repository provides `Little Mouse Pointer`, a Windows desktop UI context picker for AI agents. Select windows, UI elements, or screen regions with hover highlighting, UI Automation, screenshots, and local OCR, then provide the user-approved context to OpenAI Codex, DeepSeek Harness, or another MCP-compatible client over MCP.
 
 The plugin lives in [`plugins/little-mouse-pointer`](plugins/little-mouse-pointer). See the plugin [README](plugins/little-mouse-pointer/README.en.md) for full feature, protocol, and runtime documentation.
 
