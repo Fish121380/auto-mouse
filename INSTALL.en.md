@@ -61,6 +61,10 @@ The Codex marketplace command targets the repository root `Auto_Mouse`, not the 
 - If the control window is not visible, use the tray menu or call `ui_context_pick` again after bringing the picker to the foreground.
 - If no tools are discovered, verify the executable path, `cwd`, endpoint, environment variable, and that the full `app` directory is present.
 - In MCP stdio mode, stdout is reserved for JSON-RPC. Diagnostics belong on stderr.
+- If hover highlighting or buttons do not respond, close old instances, verify the runtime directory is complete, and run `run.ps1 -SelfTest`.
+- If selection times out, complete selection, preview, and approval in the control window after calling `ui_context_pick`, then call it again.
+
+See the [getting started tutorial](plugins/little-mouse-pointer/docs/getting-started.en.md) for the full workflow.
 
 ## Continue reading
 

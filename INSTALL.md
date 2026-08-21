@@ -46,6 +46,15 @@
 - 端口占用时同时修改 endpoint 和 `MOUSE_POINTER_HTTP_PORT`。
 - 手动 GUI 启动使用 `run.ps1` 或 `run.cmd`；MCP stdio 使用 self-contained exe。
 
+## 快速排查
+
+- **没有发现工具**：确认插件已启用，保留完整 `app` 目录，并让 `command` 直接指向 `app\MousePointer.Windows.exe`。
+- **小窗看不见**：使用 `Alt+Tab` 或托盘菜单恢复窗口。全屏 Codex 可能暂时遮挡置顶小窗。
+- **悬停或按钮无反应**：关闭旧的 `MousePointer.Windows.exe` 实例，确认没有复制不完整的运行时目录，再执行 `run.ps1 -SelfTest`。
+- **选取超时**：调用 `ui_context_pick` 后，在控制小窗中完成选取、预览和确认；超时后重新调用即可。
+
+详细步骤见[新手教程](plugins/little-mouse-pointer/docs/getting-started.md)。
+
 GitHub 仓库检出时，插件根目录是 `Auto_Mouse/plugins/little-mouse-pointer`；独立发行版 zip 解压后，插件根目录是直接包含 `.codex-plugin` 的 `little-mouse-pointer` 目录。Codex marketplace 命令应指向仓库根目录 `Auto_Mouse`。Harness bundle 安装命令应指向仓库 URL，而不是嵌套插件目录。
 
 ## 继续阅读
