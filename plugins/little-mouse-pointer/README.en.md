@@ -4,6 +4,14 @@
 
 Little Mouse Pointer is a Windows desktop UI context picker for OpenAI Codex, DeepSeek Harness, and other MCP-compatible clients. Select a window, UI element, or screen region with hover highlighting, UI Automation, screenshots, and local OCR; review privacy-filtered Markdown, JSON, and screenshots; then explicitly approve the context before it is provided to an AI agent over MCP stdio.
 
+## Documentation
+
+- [Beginner installation checklist](../../INSTALL.en.md): verify installation through the first tool call.
+- [Runtime notes](docs/runtime.en.md): the packaged runtime, manual startup, and MCP stdio.
+- [DeepSeek Harness configuration](docs/deepseek-harness.en.md): manual configuration when the bundle is unavailable.
+- [Protocol reference](docs/protocol/dsh-ui-context-v1.en.md): tool names, output files, and approval semantics.
+- [中文 README](README.md)：中文功能与配置说明。
+
 ## Features
 
 - Highlights windows and accessible UI elements under the pointer.
